@@ -10,17 +10,9 @@ class Home extends StatelessWidget {
           title: Text('My app'),
           centerTitle: true,
           backgroundColor: Colors.red[600]),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print('You clicked me');
-          },
-          icon: Icon(
-            Icons.alternate_email,
-            size: 50.0,
-          ),
-          color: Colors.amber,
-        ),
+      body: Padding(
+        padding: EdgeInsets.all(90.0),
+        child: Text('Hello'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
