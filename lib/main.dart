@@ -11,11 +11,17 @@ class Home extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red[600]),
       body: Center(
-//        child: Image(
-//          image: NetworkImage(
-//              'https://newevolutiondesigns.com/images/freebies/space-iphone-wallpaper-2.jpg'),
-//        ),
-          child: Image.asset('assets/images/dog.png')),
+        child: IconButton(
+          onPressed: () {
+            print('You clicked me');
+          },
+          icon: Icon(
+            Icons.alternate_email,
+            size: 50.0,
+          ),
+          color: Colors.amber,
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text(
