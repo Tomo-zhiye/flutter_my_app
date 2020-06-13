@@ -11,18 +11,11 @@ class Home extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red[600]),
       body: Center(
-        child: Text(
-          'Hello Ninjas',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower',
-//              Couldn't change fontFamily
-          ),
-        ),
-      ),
+//        child: Image(
+//          image: NetworkImage(
+//              'https://newevolutiondesigns.com/images/freebies/space-iphone-wallpaper-2.jpg'),
+//        ),
+          child: Image.asset('assets/images/dog.png')),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text(
